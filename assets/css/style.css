@@ -147,7 +147,7 @@ ul{
     opacity: 0;
     visibility: hidden;
     height: 0px;
-    max-height: fit-content;
+    max-height: fit-content !important;
     transition: all .3s;
 }
 
