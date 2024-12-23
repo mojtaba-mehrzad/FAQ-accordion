@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: hsl(292, 42%, 14%); }
+    .attribution a { color: #9E36CB; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="faqs-card">
+      <section class="faqs-card-header">
+        <img class="faqs-card-header-icon" src="./assets/images/icon-star.svg" alt="star icon">
+        <h1 class="faqs-card-header-text">FAQs</h1>
+      </section>
+      <ul class="faqs-card-list">
+
+        <!-- item one start -->
+        <li class="faqs-list-item">
+          <div class="item-question">
+            <button type="button" class="question-text">What is Frontend Mentor, and how will it help me?</button>
+            <button type="button" class="item-button" aria-expanded="false" aria-controls="answer1"  aria-label="Toggle answer 1"></button>
+          </div>
+          <div class="item-answer" id="answer1" aria-hidden="true">
+            <p class="answer-text">
+              Frontend Mentor offers realistic coding challenges to help developers improve their 
+              frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+              all levels and ideal for portfolio building.
+            </p> 
+          </div>
+        </li>
+        <!-- item one end -->
+
+        <!-- item two start -->
+        <li class="faqs-list-item">
+          <div class="item-question">
+            <button type="button"  class="question-text">Is Frontend Mentor free?</button>
+            <button type="button" class="item-button"  aria-expanded="false" aria-controls="answer2"  aria-label="Toggle answer 2"></button>
+          </div>
+          <div class="item-answer" id="answer2" aria-hidden="true">
+            <p class="answer-text">
+              Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+              option providing access to a range of projects suitable for all skill levels.
+            </p> 
+          </div>
+        </li>
+        <!-- item two end -->
+
+        <!-- item three start -->
+        <li class="faqs-list-item">
+          <div class="item-question">
+            <button type="button"  class="question-text">Can I use Frontend Mentor projects in my portfolio?</button>
+            <button type="button" class="item-button"  aria-expanded="false" aria-controls="answer3"  aria-label="Toggle answer 3"></button>
+          </div>
+          <div class="item-answer" id="answer3" aria-hidden="true">
+            <p class="answer-text">
+              Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+              way to showcase your skills to potential employers!
+            </p> 
+          </div>
+        </li>
+        <!-- item three end -->
+
+        <!-- item four start -->
+        <li class="faqs-list-item">
+          <div class="item-question">
+            <button type="button" class="question-text">How can I get help if I'm stuck on a challenge?</button>
+            <button type="button" class="item-button"  aria-expanded="false" aria-controls="answer4"  aria-label="Toggle answer 4"></button>
+          </div>
+          <div class="item-answer" id="answer4" aria-hidden="true">
+            <p class="answer-text">
+              The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+              channel where you can ask questions and seek support from other community members.
+            </p> 
+          </div>
+        </li>
+        <!-- item four end -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/mojtaba-mehrzad" target="_blank">Mojtaba Mehrzad</a>.
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
