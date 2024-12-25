@@ -154,7 +154,8 @@ ul{
 .item-answer-active{
     opacity: 1;
     visibility: visible !important;
-    height: 150px ;
+    max-height: fit-content !important;
+    height: 9.375rem ;
 }
 
 .answer-text{
@@ -220,6 +221,9 @@ footer{
         cursor: pointer;
     }
 
+    .item-answer-active{
+        height: 7.5rem ;
+    }
     .answer-text{
         font-size: 1rem;
     }
